@@ -20,6 +20,7 @@ public class AbstractProperty
                 return $"Code:{Code},Name:{Name},Age:{Age}";
             }
         }
+
         static void Main(string[] args)
         {
             var s = new Student()
@@ -28,6 +29,8 @@ public class AbstractProperty
                 Name = "Zara",
                 Age = 10
             };
+
+            //打印对象信息
             Console.WriteLine($"Student Info:={s}");
             s.Age++;
             Console.WriteLine($"Student Info:={s}");
