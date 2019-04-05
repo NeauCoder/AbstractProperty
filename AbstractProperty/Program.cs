@@ -34,6 +34,7 @@ public class AbstractProperty
             Console.WriteLine($"Student Info:={s}");
             s.Age++;
             Console.WriteLine($"Student Info:={s}");
+            Console.WriteLine("");
         }
     }
 }
